@@ -2,7 +2,7 @@ import { useRouter } from "expo-router";
 import React, { useState } from "react";
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { FACEBOOKLOGO, GOOGLELOGO, HEROLOGOGREEN } from "../constants";
-import { styles } from "../styles/_joinstyle";
+import { styles } from "../styles/_joins";
 
 export default function Join() {
   const router = useRouter();
